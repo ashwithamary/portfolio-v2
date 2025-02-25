@@ -46,6 +46,7 @@ const About = () => {
               passionate about creating impactful software solutions. I recently interned at Verint as a Software Engineer where I helped 
               improve system reliability and reduce deployment times.
               I also served as a Graduate Teaching Assistant at George Mason University where I mentored students in modern web development for the past year and a half.
+              Beyond my technical work, I actively engage with technology communities and volunteer my skills to support educational non-profits.
             </p>
           </div>
 

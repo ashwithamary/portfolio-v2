@@ -11,6 +11,7 @@ import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
 import Certifications from './components/sections/Certifications';
 import Timeline from './components/sections/Timeline';
+import Community from './components/sections/Community';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Skills />
           <Education />
           <Certifications />
+          <Community /> 
           <Contact />
         </main>
         <Footer />

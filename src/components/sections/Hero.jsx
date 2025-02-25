@@ -77,7 +77,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/10 rounded-full blur-lg"></div>
               <img
-                src="/assets/images/Photograph.jpg"
+                src="/assets/images/Photograph.HEIC"
                 alt="Mary Ashwitha Gopu"
                 className="w-72 h-72 object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-lg relative z-10"
               />

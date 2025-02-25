@@ -1,7 +1,7 @@
 // src/components/layout/Navbar.jsx
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import ThemeToggle from '../shared/ThemeToggle'; 
+import ThemeToggle from '../shared/ThemeToggle';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +13,7 @@ const Navbar = () => {
     { name: 'Skills', href: '#skills' },
     { name: 'Education', href: '#education' },
     { name: 'Certifications', href: '#certifications' },
+    { name: 'Community', href: '#community' },
     { name: 'Contact', href: '#contact' },
   ];
 
