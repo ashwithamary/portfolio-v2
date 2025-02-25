@@ -20,12 +20,12 @@ function App() {
         <main className="dark:text-gray-100">
           <Hero />
           <About />
+          <Timeline />
           <Experience />
           <Projects />
           <Skills />
           <Education />
           <Certifications />
-          <Timeline />
           <Contact />
         </main>
         <Footer />

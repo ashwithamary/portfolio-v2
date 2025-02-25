@@ -11,8 +11,8 @@ const Hero = () => {
       strings: [
         'Software Engineer',
         'Full Stack Developer',
-        'Cloud & DevOps Specialist',
-        'ML/AI Enthusiast'],
+        'Cloud/DevOps Specialist',
+        'AI Enthusiast'],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,

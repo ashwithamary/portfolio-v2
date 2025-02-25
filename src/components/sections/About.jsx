@@ -64,7 +64,7 @@ const About = () => {
             ))}
           </div>
 
-          <div ref={journeyRef} className="mt-16 prose max-w-4xl mx-auto reveal reveal-scale">
+          {/* <div ref={journeyRef} className="mt-16 prose max-w-4xl mx-auto reveal reveal-scale">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Professional Journey</h3>
               <p className="text-gray-600 dark:text-gray-300">
@@ -83,7 +83,7 @@ const About = () => {
                 interested in creating scalable solutions that make a real-world impact.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
