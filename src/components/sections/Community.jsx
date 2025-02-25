@@ -1,11 +1,10 @@
 // src/components/sections/Community.jsx
 import { Award, Users, Heart, Calendar } from 'lucide-react';
-import SectionContainer from '../shared/SectionContainer';
 import SectionTitle from '../shared/SectionTitle';
 
 const Community = () => {
   return (
-    <SectionContainer id="community">
+    <section id="community">
       <SectionTitle>Extracurricular & Community Involvement</SectionTitle>
       
       {/* Current Volunteering */}
@@ -100,7 +99,7 @@ const Community = () => {
           </div>
         </div>
       </div>
-    </SectionContainer>
+    </section>
   );
 };
 
