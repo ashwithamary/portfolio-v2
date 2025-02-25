@@ -54,7 +54,7 @@ const About = () => {
             {highlights.map((item, index) => (
               <div 
                 key={index}
-                className={`reveal reveal-scale delay-${index * 200} flex flex-col items-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-md hover:scale-105 transition-all duration-300`}
+                className={`reveal reveal-scale delay-${index * 200} flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg hover:shadow-md hover:scale-105 transition-all duration-300`}
               >
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary transform hover:rotate-12 transition-transform duration-300">
                   <item.icon size={24} />

@@ -3,7 +3,6 @@ import React from 'react';
 import { Briefcase, GraduationCap, Code } from 'lucide-react';
 
 const Timeline = () => {
-  // Combined events array with both education and experience
   const events = [
     {
       date: "Jan 2023 - Dec 2024",
