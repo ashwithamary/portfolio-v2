@@ -1,6 +1,6 @@
 // src/components/shared/ProjectCard.jsx
 import { useState } from 'react';
-import { Github, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react';
+import { Github, ExternalLink, ChevronDown, ChevronUp, Link } from 'lucide-react';
 
 const ProjectCard = ({ project }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -8,13 +8,27 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
       {project.image && (
-        <div className="relative h-48 rounded-t-xl overflow-hidden">
+        <div className="relative h-48 rounded-t-xl overflow-hidden group">
           <img 
             src={project.image} 
             alt={project.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          
+          {project.demoLink && (
+            <a
+              href={project.demoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <div className="bg-primary/90 text-white px-4 py-2 rounded-md flex items-center space-x-2 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                <Link className="w-5 h-5" />
+                <span>View Live Demo</span>
+              </div>
+            </a>
+          )}
         </div>
       )}
       
@@ -35,6 +49,7 @@ const ProjectCard = ({ project }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                title="View GitHub Repository"
               >
                 <Github className="w-5 h-5 text-gray-600 dark:text-gray-400" />
               </a>
@@ -45,6 +60,7 @@ const ProjectCard = ({ project }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                title="Open Live Demo"
               >
                 <ExternalLink className="w-5 h-5 text-gray-600 dark:text-gray-400" />
               </a>
@@ -55,6 +71,20 @@ const ProjectCard = ({ project }) => {
         <p className="mt-4 text-gray-600 dark:text-gray-300">
           {project.description}
         </p>
+
+        {project.demoLink && (
+          <div className="mt-4">
+            <a
+              href={project.demoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
+            >
+              <Link className="w-4 h-4 mr-1" />
+              <span>Live Demo: {new URL(project.demoLink).hostname}</span>
+            </a>
+          </div>
+        )}
 
         <div className="mt-4 flex flex-wrap gap-2">
           {project.techStack.map((tech, index) => (

@@ -13,22 +13,22 @@ const About = () => {
     {
       icon: Code,
       title: 'Full Stack Development',
-      description: 'Experienced in building scalable applications using modern frameworks and technologies.'
+      description: 'Experienced in building scalable applications using React, Node.js, Spring Boot, and modern frameworks.'
     },
     {
       icon: Server,
       title: 'DevOps & Cloud',
-      description: 'Proficient in AWS, Docker, and CI/CD pipelines for efficient deployment and scaling.'
+      description: 'Proficient in AWS, Docker, Kubernetes, and CI/CD pipelines for efficient deployment and infrastructure optimization.'
     },
     {
       icon: Brain,
-      title: 'Machine Learning',
-      description: 'Implemented AI solutions using modern NLP techniques and deep learning frameworks.'
+      title: 'AI & Machine Learning',
+      description: 'Implemented AI solutions with modern NLP techniques, including prompt engineering and integration of AI services.'
     },
     {
       icon: Users,
-      title: 'Leadership',
-      description: 'Led technical sessions and mentored 200+ students as a Graduate Teaching Assistant.'
+      title: 'Problem Solving',
+      description: 'Skilled in optimizing workflows, enhancing system reliability, and reducing operational costs through technical innovation.'
     }
   ];
 
@@ -42,11 +42,10 @@ const About = () => {
         <div className="mt-12">
           <div ref={introRef} className="max-w-3xl mx-auto text-center reveal">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm a recent graduate from George Mason University where I studied Computer Science, 
-              passionate about creating impactful software solutions. I recently interned at Verint as a Software Engineer where I helped 
-              improve system reliability and reduce deployment times.
-              I also served as a Graduate Teaching Assistant at George Mason University where I mentored students in modern web development for the past year and a half.
-              Beyond my technical work, I actively engage with technology communities and volunteer my skills to support educational non-profits.
+              I'm a Full-Stack Software Engineer passionate about crafting scalable, high-impact applications that boost efficiency and engagement. With expertise in React, Node.js, Spring Boot, and cloud technologies, I've engineered solutions that streamline workflows, enhance automation, and optimize infrastructure.
+            </p>
+            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+              A graduate from George Mason University with a 3.97 GPA in Computer Science, I've led impactful projects at Verint Systems where I reduced deployment times by 50% and cut cloud costs by 35%. I'm actively involved in technology communities and volunteer my expertise to support educational non-profits like Bright Mind Enrichment and Schooling (BMEAS).
             </p>
           </div>
 
@@ -65,26 +64,22 @@ const About = () => {
             ))}
           </div>
 
-          {/* <div ref={journeyRef} className="mt-16 prose max-w-4xl mx-auto reveal reveal-scale">
+          <div ref={journeyRef} className="mt-16 prose max-w-4xl mx-auto reveal reveal-scale">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Professional Journey</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Starting with a "Hello World" program, my journey in Computer Science has evolved into 
-                creating enterprise-level solutions. At Verint Systems, I've enhanced system reliability 
-                through improved logging methods and reduced deployment times by 50%. As a Graduate 
-                Teaching Assistant, I've guided hundreds of students through modern web development, 
-                combining my technical expertise with a passion for education.
-              </p>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">What I Bring</h3>
+              <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+                <li>✓ Optimized CI/CD pipelines at Verint, slashing deployment times by 50% and saving 8+ hours weekly</li>
+                <li>✓ Built scalable AI apps like an Interaction Wrap-Up Bot, ranking 1st among 12 projects and boosting adoption by 40%</li>
+                <li>✓ Reduced cloud costs by 35% across 10+ environments with AWS, Kubernetes, and Ansible</li>
+                <li>✓ Delivered StackConnect, a survey platform with 99.9% uptime, processing 5000+ records</li>
+              </ul>
               
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Technical Expertise</h3>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">My Approach</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                My technical toolkit spans Java, Python, and JavaScript, with expertise in cloud 
-                technologies and DevOps practices. I've successfully implemented AI solutions, 
-                developed full-stack applications, and optimized cloud infrastructure. I'm particularly 
-                interested in creating scalable solutions that make a real-world impact.
+                I excel at solving problems with AI, automation, and cloud technologies, driving efficiency while collaborating with teams to deliver innovative, high-performance solutions. I'm currently seeking full-time software engineering opportunities where I can make a meaningful impact.
               </p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

@@ -4,42 +4,41 @@ import SectionTitle from '../shared/SectionTitle';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Software Engineer Intern',
+      title: 'Software Engineer',
       company: 'Verint Systems',
       logo: '/assets/images/Verint logo.png',
-      location: 'Remote',
+      location: 'Remote - R&D Department',
       period: 'May 2024 – Dec 2024',
       achievements: [
-        'Enhanced system reliability by implementing comprehensive JUnit test coverage and real-time monitoring with DataDog, enabling instant failure detection and automated OpsGenie alerts.',
-        'Built and optimized a CI/CD pipeline using Harness, reducing deployment time by 50% through parallel executions and custom YAML configurations.',
-        'Improved cloud infrastructure efficiency by developing smart Ansible scripts that perform pre-deployment environment validation, preventing unnecessary AWS and GCP resource utilization.',
-        'Led the development of an AI-powered Interaction Wrap-Up Bot that achieved 40% user adoption through intelligent prompt engineering and user-centric customization features.'
+        'Developed a Java logging system with DataDog and OpsGenie, ensuring JUnit test coverage and real-time failure detection for 15+ microservices',
+        'Restructured a Harness CI/CD pipeline that reduced deployment time by 50% through custom YAML scripts, automated checks, and parallel executions, saving 8+ hours weekly',
+        'Optimized cloud resource allocation by integrating pre-deployment verification into Ansible scripts, reducing redundant AWS and GCP deployments across 10+ environments and cutting cloud costs by 35%',
+        'Engineered an AI-powered Interaction Wrap-Up Bot, ranking 1st among 12 internal projects. Leveraged prompt engineering to boost user adoption by 40%, handling 75+ daily interactions seamlessly'
       ],
-      technologies: ['Java', 'JUnit', 'DataDog', 'Harness', 'AWS', 'GCP', 'Ansible', 'YAML', 'AI/ML']
+      technologies: ['Java', 'JUnit', 'DataDog', 'OpsGenie', 'Harness', 'AWS', 'GCP', 'Ansible', 'YAML', 'CI/CD', 'Prompt Engineering']
     },
     {
-      title: 'Graduate Teaching Assistant',
+      title: 'Full Stack Developer',
       company: 'George Mason University',
       logo: '/assets/images/GMU logo.png',
       location: 'Fairfax, VA',
       period: 'Aug 2023 – Dec 2024',
       achievements: [
-        'Guided 200+ students through modern web development practices, focusing on practical implementation of React, Node.js, Express, and Firebase.',
-        'Established an Agile development environment for student projects, implementing code reviews and industry-standard practices that resulted in consistently higher quality deliverables.',
-        'Created comprehensive learning materials covering advanced JavaScript concepts, DevOps practices, and full-stack development patterns.',
+        'Engineered StackConnect, a full-stack survey application with Angular frontend and Spring Boot backend, implementing RESTful APIs that processed 5000+ survey records with real-time analytics and reporting capabilities',
+        'Designed responsive UI with form validation and implemented server-side data persistence using JPA/Hibernate with MySQL, enabling efficient data storage and retrieval across 12+ endpoints',
+        'Deployed on AWS EC2 with Docker & Kubernetes, automating deployment via a Jenkins CI/CD pipeline. Achieved a 40% reduction in deployment time and 99.9% uptime with a scalable 3-pod architecture'
       ],
-      technologies: ['React', 'Node.js', 'Express', 'Firebase', 'JavaScript', 'DevOps']
+      technologies: ['Angular', 'Spring Boot', 'JPA/Hibernate', 'MySQL', 'AWS EC2', 'Docker', 'Kubernetes', 'Jenkins', 'CI/CD', 'RESTful APIs']
     },
     {
       title: 'Software Developer',
       company: 'Jade Global',
       logo: '/assets/images/Jade logo.png',
       location: 'Hyderabad, India',
-      period: 'Sep 2022 – Nov 2022',
+      period: 'Sep 2021 – Nov 2022',
       achievements: [
-        'Architected and developed RESTful APIs using the MEAN stack, implementing robust error handling and logging mechanisms for business-critical operations.',
-        'Engineered a real-time metrics dashboard that processes concurrent data streams, providing instant visibility into key business performance indicators.',
-        'Implemented scalable data processing solutions that handle multiple service integrations efficiently.',
+        'Developed RESTful APIs using MEAN stack with error handling & logging for 3 key operations (inventory, billing, reporting)',
+        'Built a real-time monitoring dashboard using Node.js and Express.js to track business metrics, ensuring 99.5% uptime while supporting concurrent data processing across 8+ services'
       ],
       technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'RESTful APIs']
     }

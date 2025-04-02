@@ -22,7 +22,7 @@ function App() {
         <main className="dark:text-gray-100">
           <Hero />
           <About />
-          <Timeline />
+          {/* <Timeline /> */}
           <Experience />
           <Projects />
           <Skills />

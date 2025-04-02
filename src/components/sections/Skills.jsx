@@ -24,26 +24,30 @@ const Skills = () => {
       items: ["Java", "Python", "JavaScript", "TypeScript", "C/C++"]
     },
     {
-      name: "Web Technologies", 
-      items: ["React", "Angular", "Spring Boot", "Node.js", "HTML/CSS", "RESTful APIs"]
+      name: "Frontend",
+      items: ["React", "Next.js", "Angular", "Tailwind CSS", "HTML/CSS", "TypeScript"]
+    },
+    {
+      name: "Backend", 
+      items: ["Node.js", "Express.js", "Spring Boot", "RESTful APIs", "JPA/Hibernate", "Microservices"]
     },
     {
       name: "Cloud & DevOps",  
-      items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Ansible", "Terraform"]
+      items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Ansible", "Terraform", "DataDog", "OpsGenie"]
     },
     {
       name: "Databases & Storage",
-      items: ["MySQL", "MongoDB", "PostgreSQL", "Redis"]
+      items: ["MongoDB", "MySQL", "PostgreSQL", "Redis", "Drizzle ORM", "Firebase", "NoSQL"]
     },
     {
-      name: "Developer Tools",  
-      items: ["Git", "Linux", "JUnit", "Maven", "IntelliJ IDEA", "VS Code"]
+      name: "Tools & Services",  
+      items: ["Git", "Linux", "JUnit", "Socket.io", "Stripe", "Clerk Auth", "Google Gemini AI", "Cloudinary"]
     },
     {
       name: "Methodologies & Practices", 
       items: ["Agile/Scrum", "Test-Driven Development", "System Design", "Microservices Architecture"]
     }
-];
+  ];
 
   const [showAll, setShowAll] = useState(false);
   const displayedCategories = showAll ? skillCategories : skillCategories.slice(0, 6);

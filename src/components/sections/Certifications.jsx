@@ -46,8 +46,15 @@ const Certifications = () => {
     {
       title: "AWS Certified Developer - Associate",
       issuer: "Amazon Web Services",
-      date: "2024",
+      date: "Dec 2024",
       link: "https://www.credly.com/badges/5feedd27-b3ea-44e6-8e44-493c9d32554d/public_url",
+      featured: true
+    },
+    {
+      title: "GitHub Foundations",
+      issuer: "GitHub",
+      date: "Mar 2025",
+      link: "https://www.credly.com/badges/9017d885-07cf-47c1-8555-1504aa1da8ca/linked_in_profile",
       featured: true
     },
     {
@@ -60,6 +67,14 @@ const Certifications = () => {
   ];
 
   const certificationGroups = {
+    "DevOps & Development": [
+      {
+        title: "GitHub Foundations",
+        issuer: "GitHub",
+        date: "Mar 2025 - Expires Mar 2028",
+        link: "https://www.credly.com/badges/9017d885-07cf-47c1-8555-1504aa1da8ca/linked_in_profile"
+      }
+    ],
     "Google Specializations": [
       {
         title: "Google Cybersecurity Specialization",
@@ -105,7 +120,7 @@ const Certifications = () => {
         
         <div className="mt-8 mb-12">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Featured Certifications</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {featuredCertifications.map((cert, index) => (
               <CertificationCard key={index} {...cert} />
             ))}

@@ -1,6 +1,104 @@
 // src/data/projects.js
 export const projects = [
   {
+    id: 'ai-mock-interview',
+    title: 'AI Mock Interview Platform',
+    category: 'Full Stack',
+    period: 'Mar 2025 - Present',
+    description: 'AI-driven mock interview platform that simulates technical interviews with dynamic questions, speech-to-text analysis, and real-time feedback.',
+    image: '/assets/images/AI_Interview Prep.png',
+    demoLink: 'https://ai-interview-prep-theta.vercel.app/',
+    githubLink: 'https://github.com/ashwithamary/ai-mock-interview',
+    techStack: [
+      'Next.js',
+      'React',
+      'Node.js',
+      'Drizzle ORM',
+      'PostgreSQL',
+      'Google Gemini AI',
+      'Clerk Auth',
+      'Stripe'
+    ],
+    highlights: [
+      'Created a full-stack AI platform that simulates technical interviews with 5 dynamically generated AI questions',
+      'Incorporated speech-to-text analysis for real-time evaluation of responses',
+      'Designed a responsive user interface with detailed feedback using a 5-point rating system',
+      'Implemented a secure 2-tier subscription model using Stripe payment integration'
+    ],
+    keyFeatures: [
+      'Dynamic AI question generation',
+      'Speech-to-text analysis',
+      'Personalized feedback system',
+      'Stripe-powered subscription tiers',
+      'Secure authentication with Clerk'
+    ]
+  },
+  {
+    id: 'coursematrix',
+    title: 'CourseMatrix - Online Learning Platform',
+    category: 'Full Stack',
+    period: 'Feb 2025 - Mar 2025',
+    description: 'Scalable MERN-based e-learning platform that supports course creation, secure payments, and role-based access control.',
+    image: '/assets/images/CourseMatrix.png',
+    demoLink: 'https://course-matrix-frontend.vercel.app/',
+    githubLink: 'https://github.com/ashwithamary/coursematrix',
+    techStack: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Stripe',
+      'Clerk Auth',
+      'Cloudinary',
+      'JWT'
+    ],
+    highlights: [
+      'Built a scalable platform supporting 50+ courses with secure Clerk authentication',
+      'Integrated Stripe payment processing with a 99.8% transaction success rate',
+      'Established role-based access control with JWT authentication for educators and students',
+      'Implemented secure content delivery for course materials via Cloudinary'
+    ],
+    keyFeatures: [
+      'Role-based access control',
+      'Secure payment processing',
+      'Content management system',
+      'Media optimization',
+      'Interactive learning interface'
+    ]
+  },
+  {
+    id: 'hospital-inventory-system',
+    title: 'Hospital Inventory Management System',
+    category: 'Full Stack',
+    period: 'Jan 2025 - Feb 2025',
+    description: 'Real-time inventory management system for tracking and managing medical inventory records across multiple hospital locations.',
+    image: '/assets/images/hospital.jpg',
+    demoLink: 'https://hospital-inventory-management.vercel.app/',
+    githubLink: 'https://github.com/ashwithamary/hospital-inventory-system',
+    techStack: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Socket.io',
+      'Recharts',
+      'REST API'
+    ],
+    highlights: [
+      'Launched a real-time inventory system tracking 5000+ medical records across 50 hospital locations',
+      'Integrated Socket.io for real-time updates, improving emergency response times by 15%',
+      'Generated visualization dashboards with Recharts for inventory analytics processing 1000+ daily transactions',
+      'Implemented secure multi-factor authentication for sensitive medical data'
+    ],
+    keyFeatures: [
+      'Real-time inventory tracking',
+      'Multi-location management',
+      'Data visualization dashboard',
+      'Secure authentication',
+      'Emergency response optimization'
+    ]
+  },
+  {
     id: 'keyphrase-extraction',
     title: 'AI-Powered Keyphrase Extraction System',
     category: 'Machine Learning',
@@ -87,35 +185,6 @@ export const projects = [
       'Instant notifications',
       'Low-level optimization',
       'Signal processing algorithms'
-    ]
-  },
-  {
-    id: 'hospital-inventory',
-    title: 'Hospital Inventory Management',
-    category: 'Full Stack',
-    period: 'Oct 2020 - Dec 2020',
-    description: 'MERN stack application for managing hospital inventory with real-time ventilator availability tracking across multiple locations.',
-    image: '/assets/images/hospital.jpg', 
-    demoLink: '', 
-    githubLink: 'https://github.com/ashwithamary/hospital_inventory_management', 
-    techStack: [
-      'MongoDB',
-      'Express.js',
-      'React',
-      'Node.js',
-      'REST APIs'
-    ],
-    highlights: [
-      'Developed full-stack solution managing 5000+ inventory records',
-      'Created real-time dashboard for ventilator availability',
-      'Implemented CRUD operations with REST APIs',
-      'Optimized ambulance routing system'
-    ],
-    keyFeatures: [
-      'Real-time tracking',
-      'Interactive dashboard',
-      'Inventory management',
-      'Location-based routing'
     ]
   },
   {
