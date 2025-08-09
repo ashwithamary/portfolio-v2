@@ -1,4 +1,3 @@
-// src/components/sections/About.jsx
 import { useReveal } from '../../hooks/useReveal';
 import SectionTitle from '../shared/SectionTitle';
 import { Code, Server, Brain, Users } from 'lucide-react';
@@ -13,7 +12,7 @@ const About = () => {
     {
       icon: Code,
       title: 'Full Stack Development',
-      description: 'Experienced in building scalable applications using React, Node.js, Spring Boot, and modern frameworks.'
+      description: 'Experienced in building scalable applications using React, NestJS, Spring Boot, and modern frameworks.'
     },
     {
       icon: Server,
@@ -38,20 +37,20 @@ const About = () => {
         <div ref={titleRef} className="reveal">
           <SectionTitle>About Me</SectionTitle>
         </div>
-        
+
         <div className="mt-12">
           <div ref={introRef} className="max-w-3xl mx-auto text-center reveal">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm a Full-Stack Software Engineer passionate about crafting scalable, high-impact applications that boost efficiency and engagement. With expertise in React, Node.js, Spring Boot, and cloud technologies, I've engineered solutions that streamline workflows, enhance automation, and optimize infrastructure.
+              I'm a Full-Stack Software Engineer passionate about crafting scalable, high-impact applications that boost efficiency and engagement. With expertise in React, NestJS, Spring Boot, and cloud technologies, I've engineered solutions that streamline workflows, enhance automation, and optimize infrastructure.
             </p>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              A graduate from George Mason University with a 3.97 GPA in Computer Science, I've led impactful projects at Verint Systems where I reduced deployment times by 50% and cut cloud costs by 35%. I'm actively involved in technology communities and volunteer my expertise to support educational non-profits like Bright Mind Enrichment and Schooling (BMEAS).
+              Currently at TELCLOUD, I'm building enterprise telecommunications software using React, NestJS, and PostgreSQL. A graduate from George Mason University with a 3.97 GPA in Computer Science, I've led impactful projects at Verint Systems where I reduced deployment times by 50% and cut cloud costs by 35%. I'm actively involved in technology communities and volunteer my expertise to support educational non-profits like Bright Mind Enrichment and Schooling (BMEAS).
             </p>
           </div>
 
           <div ref={cardsRef} className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {highlights.map((item, index) => (
-              <div 
+              <div
                 key={index}
                 className={`reveal reveal-scale delay-${index * 200} flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg hover:shadow-md hover:scale-105 transition-all duration-300`}
               >
@@ -68,15 +67,17 @@ const About = () => {
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">What I Bring</h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+                <li>✓ Currently architecting enterprise telecommunications solutions at TELCLOUD, serving Fortune 500 clients with 99.999% reliability requirements</li>
+                <li>✓ Built user management systems reducing operational complexity by 50% through automated workflows</li>
                 <li>✓ Optimized CI/CD pipelines at Verint, slashing deployment times by 50% and saving 8+ hours weekly</li>
                 <li>✓ Built scalable AI apps like an Interaction Wrap-Up Bot, ranking 1st among 12 projects and boosting adoption by 40%</li>
                 <li>✓ Reduced cloud costs by 35% across 10+ environments with AWS, Kubernetes, and Ansible</li>
                 <li>✓ Delivered StackConnect, a survey platform with 99.9% uptime, processing 5000+ records</li>
               </ul>
-              
+
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">My Approach</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                I excel at solving problems with AI, automation, and cloud technologies, driving efficiency while collaborating with teams to deliver innovative, high-performance solutions. I'm currently seeking full-time software engineering opportunities where I can make a meaningful impact.
+                I excel at solving problems with AI, automation, and cloud technologies, driving efficiency while collaborating with teams to deliver innovative, high-performance solutions. Currently at TELCLOUD and open to discussing exciting opportunities in innovative tech companies.
               </p>
             </div>
           </div>

@@ -92,8 +92,8 @@ const Contact = () => {
         
         <div className="mt-12">
           <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-            I'm currently seeking full-time software engineering opportunities. 
-            Feel free to reach out if you'd like to connect or discuss potential collaborations!
+            I'm a Full Stack Engineer passionate about building scalable solutions. Currently at TELCLOUD and 
+            open to discussing exciting opportunities in innovative tech companies!
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
