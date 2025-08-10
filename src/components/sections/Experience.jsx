@@ -1,6 +1,7 @@
 import SectionTitle from '../shared/SectionTitle';
 
 const Experience = () => {
+
   const experiences = [
     {
       title: 'Full Stack Engineer',
@@ -9,10 +10,13 @@ const Experience = () => {
       location: 'Fairfax, VA (Remote)',
       period: 'Apr 2025 – Present',
       achievements: [
-        'Architected scalable microservice infrastructure using NestJS, TypeORM, and PostgreSQL for white-label telecommunications platform serving Fortune 500 clients',
-        'Built enterprise user management systems that reduced operational complexity by 50% through automated workflows and real-time data processing',
-        'Developed secure document upload systems across microservices using gRPC, improving communication efficiency and audit compliance',
-        'Integrated QuestBlue API for automated phone number porting with 5G polling, achieving 99.5% success rate and 90% reduction in manual processes'
+        'Architected enterprise user management platform serving Fortune 500 telecommunications clients, transforming role assignment workflows and reducing operational complexity by 50%',
+        'Built scalable bulk user onboarding system processing CSV/Excel uploads, streamlining client onboarding processes by 90% through automated validation and notification workflows',
+        'Designed secure document management infrastructure across microservices, enhancing communication efficiency and ensuring audit compliance for enterprise clients',
+        'Developed intelligent warehouse filtering and order tracking systems, accelerating fulfillment processes by 60% and improving operational visibility',
+        'Engineered automated device inventory management platform with real-time synchronization, reducing movement processing time by 70% through intelligent workflow automation',
+        'Integrated telecommunications API services for automated phone number porting, achieving high reliability standards and eliminating manual processing bottlenecks',
+        'Created centralized device configuration management system, reducing duplicate configurations by 95% and standardizing operations across multiple client environments'
       ],
       technologies: ['React', 'NestJS', 'TypeORM', 'PostgreSQL', 'gRPC', 'Docker', 'AWS', 'Microservices', '5G Polling', 'QuestBlue API']
     },
@@ -23,10 +27,10 @@ const Experience = () => {
       location: 'Remote - R&D Department',
       period: 'May 2024 – Dec 2024',
       achievements: [
-        'Developed a Java logging system with DataDog and OpsGenie, ensuring JUnit test coverage and real-time failure detection for 15+ microservices',
-        'Restructured a Harness CI/CD pipeline that reduced deployment time by 50% through custom YAML scripts, automated checks, and parallel executions, saving 8+ hours weekly',
-        'Optimized cloud resource allocation by integrating pre-deployment verification into Ansible scripts, reducing redundant AWS and GCP deployments across 10+ environments and cutting cloud costs by 35%',
-        'Engineered an AI-powered Interaction Wrap-Up Bot, ranking 1st among 12 internal projects. Leveraged prompt engineering to boost user adoption by 40%, handling 75+ daily interactions seamlessly'
+        'Engineered enterprise logging and monitoring infrastructure with real-time failure detection, ensuring system reliability across 15+ microservices for Fortune 500 clients',
+        'Transformed deployment operations by redesigning CI/CD pipelines, reducing deployment time by 50% and saving 8+ hours weekly through automation and parallel processing',
+        'Optimized cloud resource management across AWS and GCP environments, cutting infrastructure costs by 35% while maintaining high availability across 10+ production environments',
+        'Developed AI-powered customer interaction platform, achieving first place recognition among 12 internal projects and increasing user adoption by 40% through innovative prompt engineering'
       ],
       technologies: ['Java', 'JUnit', 'DataDog', 'OpsGenie', 'Harness', 'AWS', 'GCP', 'Ansible', 'YAML', 'CI/CD', 'Prompt Engineering']
     },
@@ -37,9 +41,9 @@ const Experience = () => {
       location: 'Fairfax, VA',
       period: 'Aug 2023 – Dec 2024',
       achievements: [
-        'Engineered StackConnect, a full-stack survey application with Angular frontend and Spring Boot backend, implementing RESTful APIs that processed 5000+ survey records with real-time analytics and reporting capabilities',
-        'Designed responsive UI with form validation and implemented server-side data persistence using JPA/Hibernate with MySQL, enabling efficient data storage and retrieval across 12+ endpoints',
-        'Deployed on AWS EC2 with Docker & Kubernetes, automating deployment via a Jenkins CI/CD pipeline. Achieved a 40% reduction in deployment time and 99.9% uptime with a scalable 3-pod architecture'
+        'Built comprehensive survey management platform processing 5000+ records, delivering real-time analytics and reporting capabilities for university operations',
+        'Designed scalable application architecture with responsive user interfaces, ensuring efficient data management and seamless user experience across multiple endpoints',
+        'Implemented cloud deployment strategy using containerization and orchestration, achieving 40% faster deployments and 99.9% uptime through automated CI/CD processes'
       ],
       technologies: ['Angular', 'Spring Boot', 'JPA/Hibernate', 'MySQL', 'AWS EC2', 'Docker', 'Kubernetes', 'Jenkins', 'CI/CD', 'RESTful APIs']
     },
@@ -50,8 +54,8 @@ const Experience = () => {
       location: 'Hyderabad, India',
       period: 'Sep 2021 – Nov 2022',
       achievements: [
-        'Developed RESTful APIs using MEAN stack with error handling & logging for 3 key operations (inventory, billing, reporting)',
-        'Built a real-time monitoring dashboard using Node.js and Express.js to track business metrics, ensuring 99.5% uptime while supporting concurrent data processing across 8+ services'
+        'Developed robust API infrastructure for core business operations including inventory, billing, and reporting systems with comprehensive error handling and logging',
+        'Built real-time business intelligence dashboard providing operational insights and ensuring 99.5% system uptime while supporting concurrent data processing across multiple services'
       ],
       technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'RESTful APIs']
     }
@@ -61,10 +65,10 @@ const Experience = () => {
     <section id="experience" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle>Experience</SectionTitle>
-        
+
         <div className="mt-8 space-y-8">
           {experiences.map((experience, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 hover:shadow-lg transition-all duration-300"
             >
@@ -93,7 +97,7 @@ const Experience = () => {
                   {experience.period}
                 </span>
               </div>
-              
+
               <div className="mt-6">
                 <ul className="space-y-3">
                   {experience.achievements.map((achievement, i) => (
