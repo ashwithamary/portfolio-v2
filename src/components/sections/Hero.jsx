@@ -1,4 +1,3 @@
-// src/components/sections/Hero.jsx
 import { useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Typed from 'typed.js';
@@ -36,8 +35,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-500 dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl">
-              I'm currently seeking full-time software engineering opportunities.
-              Feel free to reach out if you'd like to connect!
+              Currently a Full Stack Engineer at TELCLOUD, building scalable enterprise telecommunications solutions.
+              Open to new opportunities in innovative tech companies.
             </p>
             <div className="mt-8 flex justify-center md:justify-start space-x-6">
               <a

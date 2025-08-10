@@ -1,8 +1,21 @@
-// src/components/sections/Experience.jsx
 import SectionTitle from '../shared/SectionTitle';
 
 const Experience = () => {
   const experiences = [
+    {
+      title: 'Full Stack Engineer',
+      company: 'TELCLOUD',
+      logo: '/assets/images/telcloud-logo.png',
+      location: 'Fairfax, VA (Remote)',
+      period: 'Apr 2025 – Present',
+      achievements: [
+        'Architected scalable microservice infrastructure using NestJS, TypeORM, and PostgreSQL for white-label telecommunications platform serving Fortune 500 clients',
+        'Built enterprise user management systems that reduced operational complexity by 50% through automated workflows and real-time data processing',
+        'Developed secure document upload systems across microservices using gRPC, improving communication efficiency and audit compliance',
+        'Integrated QuestBlue API for automated phone number porting with 5G polling, achieving 99.5% success rate and 90% reduction in manual processes'
+      ],
+      technologies: ['React', 'NestJS', 'TypeORM', 'PostgreSQL', 'gRPC', 'Docker', 'AWS', 'Microservices', '5G Polling', 'QuestBlue API']
+    },
     {
       title: 'Software Engineer',
       company: 'Verint Systems',

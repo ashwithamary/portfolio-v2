@@ -29,23 +29,23 @@ const Skills = () => {
     },
     {
       name: "Backend", 
-      items: ["Node.js", "Express.js", "Spring Boot", "RESTful APIs", "JPA/Hibernate", "Microservices"]
-    },
-    {
-      name: "Cloud & DevOps",  
-      items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Ansible", "Terraform", "DataDog", "OpsGenie"]
+      items: ["Node.js", "NestJS", "Express.js", "Spring Boot", "Python", "RESTful APIs", "gRPC", "JPA/Hibernate", "Microservices"]
     },
     {
       name: "Databases & Storage",
-      items: ["MongoDB", "MySQL", "PostgreSQL", "Redis", "Drizzle ORM", "Firebase", "NoSQL"]
+      items: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "TypeORM", "Drizzle ORM", "Firebase", "NoSQL"]
+    },
+    {
+      name: "Cloud & DevOps",  
+      items: ["AWS", "Docker", "Docker Desktop", "Kubernetes", "CI/CD", "Jenkins", "Ansible", "Terraform", "DataDog", "OpsGenie"]
     },
     {
       name: "Tools & Services",  
-      items: ["Git", "Linux", "JUnit", "Socket.io", "Stripe", "Clerk Auth", "Google Gemini AI", "Cloudinary"]
+      items: ["Git", "GitHub", "GitLab", "pgAdmin", "Postman", "Linux", "JUnit", "Socket.io", "Stripe", "Clerk Auth", "Google Gemini AI", "Cloudinary"]
     },
     {
       name: "Methodologies & Practices", 
-      items: ["Agile/Scrum", "Test-Driven Development", "System Design", "Microservices Architecture"]
+      items: ["Agile/Scrum", "Test-Driven Development", "System Design", "Microservices Architecture", "Enterprise Software"]
     }
   ];
 

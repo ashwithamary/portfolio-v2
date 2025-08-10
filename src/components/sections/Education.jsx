@@ -1,4 +1,3 @@
-// src/components/sections/Education.jsx
 import SectionTitle from '../shared/SectionTitle';
 
 const Education = () => {
@@ -23,6 +22,14 @@ const Education = () => {
                 <p className="text-primary">George Mason University</p>
                 <p className="text-gray-500 dark:text-gray-400">Jan 2023 - Dec 2024</p>
                 <p className="text-gray-600 dark:text-gray-300 mt-2">GPA: 3.97/4.0</p>
+                
+                {/* Distinguished Achievement Award */}
+                <div className="mt-3 flex items-center gap-2">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200">
+                    🏆 Distinguished Academic Achievement Award (May 2024)
+                  </span>
+                </div>
+                
                 <div className="mt-4">
                   <h4 className="font-medium text-gray-900 dark:text-white">Key Coursework</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
