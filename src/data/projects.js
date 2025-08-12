@@ -4,7 +4,7 @@ export const projects = [
     id: 'ai-mock-interview',
     title: 'AI Mock Interview Platform',
     category: 'Full Stack',
-    period: 'Mar 2025 - Present',
+    period: 'Mar 2025 - Apr 2025',
     description: 'AI-driven mock interview platform that simulates technical interviews with dynamic questions, speech-to-text analysis, and real-time feedback.',
     image: '/assets/images/AI_Interview Prep.png',
     demoLink: 'https://ai-interview-prep-theta.vercel.app/',
